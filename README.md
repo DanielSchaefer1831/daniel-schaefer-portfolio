@@ -2,7 +2,7 @@
 Eine persönliche Webseite über mich.
 
 # Meine persönliche Portfolio-Webseite 🌐
-Eine persönliche Webseite über mich, erstellt mit HTML, CSS und JavaScript 💻✨
+Meine persönliche Webseite über mich, erstellt mit HTML, CSS und JavaScript 💻✨
 
 ## Technologien 🛠️
 - HTML5 📄
