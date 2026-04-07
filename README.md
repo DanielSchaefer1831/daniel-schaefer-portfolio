@@ -15,6 +15,3 @@ Meine persönliche Webseite über mich, erstellt mit HTML, CSS und JavaScript �
 - Kurze Vorstellung meiner Skills 🧠
 - Kontaktinformationen 📧
 - Responsives Design für Desktop und Mobil 📱💻
-
-## Über mich 👋
-Ich bin Daniel, interessiere mich für Webentwicklung und programmiere gerne interaktive Webseiten 🚀
