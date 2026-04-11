@@ -13,11 +13,17 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
+                <img src="Images/DS-Logo-transparent.png" alt="Logo" class="logo-img">
                 <!--<img class="logo-icon" src="Images/DilSaer.png" alt="Profilbild">-->
-                <span class="logo-icon">DS</span>
-                <span class="logo-name">Daniel Schäfer</span>
+                <!--<span class="logo-icon">DS</span>-->
+                <!--<span class="logo-name">Daniel Schäfer</span>-->
             </div>
-            <ul class="nav-links">
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about-me">Über mich</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -27,6 +33,11 @@
         </div>
     </nav>
 
+    <!-- Wellenform -->
+    <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
+        <path fill="steelblue" fill-opacity="1" d="M0,40 C360,80 1080,0 1440,40 L1440,0 L0,0 Z"/>
+    </svg>-->
+
 
 
     <!-- Home -->
@@ -34,11 +45,11 @@
     <section id="home">
         <div class="greeting-slogan">
             <h1>Willkommen auf meiner Portfolio-Seite!</h1>
-            <h3>Code lernen. Probleme lösen. Zukunft gestalten.</h3>
+            <h2 class="slogan">Code lernen. Probleme lösen. Zukunft gestalten.</h2>
         </div>
         <div class="image-flowtext">
             <img src="Images/DilSaer.png" alt="Profilbild">
-            <strong>Angehender Fachinformatiker für Anwendungsentwicklung</strong>
+            <h3>Angehender Fachinformatiker für Anwendungsentwicklung</h3>
         </div>
     </section>
 
@@ -167,6 +178,47 @@
             </div>
         </div>
     </section>
+
+
+
+    <!-- Kontakt -->
+    <section id="contact">
+        <div class="information-about-contact">
+            <h2>Kontakt</h2>
+            <p>Ich freue mich über Anfragen und neue Möglichkeiten!</p>
+        
+        <div class="contact-grid">
+            
+            <a href="mailto:kontakt@daniel-schaefer-email.de" class="contact-card email-card">
+                <i class="fas fa-envelope"></i>
+                <h3>E-Mail</h3>
+                <p>kontakt@daniel-schaefer-email.de</p>
+            </a>
+
+            <a href="https://linkedin.com/in/daniel-schäfer-096783401" target="_blank" class="contact-card linkedin-card">
+                <i class="fab fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+                <p>Profil ansehen</p>
+            </a>
+
+            <a href="https://github.com/danielschaefer1831" target="_blank" class="contact-card github-card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+                <p>Profil ansehen</p>
+            </a>
+
+        </div>
+    </div>
+    </section>
+
+
+
+    <!-- Untere Leiste --> 
+    <footer>
+        <p>© 2026 Daniel Schäfer</p>
+        <p class="impressum">Impressum: Daniel Schäfer | kontakt@daniel-schaefer-email.de</p>
+    </footer>
+    <script src="scripts.js"></script>
 
 </body>
 </html>
