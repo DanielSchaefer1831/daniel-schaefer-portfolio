@@ -17,3 +17,6 @@ navItems.forEach(function(item)
         navLinks.classList.remove('active');
     });
 });
+
+// Copyright-Jahr, das jedes Jahr automatisch aktualisiert wird.
+document.querySelector('.copyright-year').textContent = new Date().getFullYear();
