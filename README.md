@@ -11,7 +11,8 @@ Meine persönliche Webseite über mich, erstellt mit HTML, CSS und JavaScript �
 - Visual Studio Code 🖥️
 
 ## Features ✨
-- Übersicht meiner Projekte 📂
+- Informationen über mich 👤 
 - Kurze Vorstellung meiner Skills 🧠
+- Übersicht meiner Projekte 📂
 - Kontaktinformationen 📧
 - Responsives Design für Desktop und Mobil 📱💻
