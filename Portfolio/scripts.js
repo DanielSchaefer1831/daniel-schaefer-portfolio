@@ -18,5 +18,9 @@ navItems.forEach(function(item)
     });
 });
 
-// Copyright-Jahr, das jedes Jahr automatisch aktualisiert wird.
-document.querySelector('.copyright-year').textContent = new Date().getFullYear();
+// Copyright-Jahr, das jedes Jahr automatisch aktualisiert wird (Startjahr + aktuelles Jahr):
+const startYear = 2026;
+const currentYear = new Date().getFullYear();
+
+document.querySelector('.copyright-year').textContent =
+  `${startYear} - ${currentYear}`;
