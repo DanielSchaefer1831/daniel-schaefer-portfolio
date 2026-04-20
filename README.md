@@ -1,8 +1,8 @@
 # daniel-schaefer-portfolio
-Eine persönliche Webseite über mich.
+Eine persönliche Website über mich.
 
-# Meine persönliche Portfolio-Webseite 🌐
-Meine persönliche Webseite über mich, erstellt mit HTML, CSS und JavaScript 💻✨
+# Meine persönliche Portfolio-Website 🌐
+Meine persönliche Website über mich, erstellt mit HTML, CSS und JavaScript 💻✨
 
 ## Technologien 🛠️
 - HTML5 📄
