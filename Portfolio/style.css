@@ -417,6 +417,18 @@ h2 {
     background-color: #333333;
 }
 
+/* Text-Erscheinung */
+section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1.0s ease, transform 1.0s ease;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 
 /* Footer */

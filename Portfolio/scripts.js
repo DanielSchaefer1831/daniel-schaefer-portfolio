@@ -24,3 +24,17 @@ const currentYear = new Date().getFullYear();
 
 document.querySelector('.copyright-year').textContent =
   `${startYear} - ${currentYear}`;
+
+
+// Text-Erscheinung:  
+const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    });
+});
+
+document.querySelectorAll('section').forEach(function(section) {
+    observer.observe(section);
+});
